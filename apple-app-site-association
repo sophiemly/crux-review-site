@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "72Y4S78MFF.com.pame.crux",
+        "paths": [
+          "/ul/*",
+          "/app/*",
+          "/share/*"
+        ]
+      }
+    ]
+  }
+}
