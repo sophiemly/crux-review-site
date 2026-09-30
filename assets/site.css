@@ -144,7 +144,10 @@ footer { border-top: 1px solid var(--line); background: white; }
 .footer-grid { min-height: 185px; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 32px; }
 .footer-grid > p { color: #8c8793; font-size: 13px; }
 .footer-links { display: flex; gap: 24px; color: #615b68; font-size: 13px; }
-.copyright { grid-column: 1 / -1; margin: -35px 0 0; padding-bottom: 25px; text-align: center; }
+.filing-info { grid-column: 1 / -1; margin: -35px 0 0; padding-bottom: 25px; text-align: center; }
+.filing-info .copyright { margin: 0 0 8px; color: #8c8793; font-size: 13px; }
+.filing-link { color: #77717f; font-size: 12px; transition: color .2s ease; }
+.filing-link:hover { color: var(--purple); }
 
 .legal-page { min-height: 100vh; background: #f7f5fa; }
 .legal-main { width: min(820px, calc(100% - 40px)); margin: 50px auto 100px; padding: 52px; border: 1px solid #e8e3ee; border-radius: 28px; background: white; }
@@ -157,6 +160,10 @@ footer { border-top: 1px solid var(--line); background: white; }
 .support-grid { display: grid; grid-template-columns: 1fr 210px; gap: 30px; align-items: start; }
 .support-card { padding: 24px; border-radius: 20px; background: #f4f1fa; }
 .support-card img { width: 180px; margin: 0 auto; border-radius: 12px; }
+.legal-footer { display: flex; justify-content: center; align-items: center; gap: 16px; padding: 24px 20px; color: #8c8793; font-size: 12px; }
+.legal-footer a { color: #77717f; }
+.legal-footer a:hover { color: var(--purple); }
+.compact-footer { border-top: 0; background: transparent; }
 
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; text-align: center; padding-top: 70px; }
@@ -207,7 +214,8 @@ footer { border-top: 1px solid var(--line); background: white; }
   .download-panel .primary { grid-column: auto; }
   .footer-grid { grid-template-columns: 1fr; justify-items: center; padding: 38px 0; gap: 18px; }
   .footer-grid > p { margin: 0; }
-  .copyright { grid-column: auto; padding: 0; }
+  .filing-info { grid-column: auto; margin: 0; padding: 0; }
+  .legal-footer { flex-direction: column; gap: 8px; }
   .legal-main { margin-top: 24px; padding: 30px 22px; border-radius: 22px; }
   .legal-main h1 { font-size: 30px; }
   .support-grid { grid-template-columns: 1fr; }

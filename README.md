@@ -1,6 +1,6 @@
 # 爬么 Crux 官方网站
 
-该目录是微信开放平台“应用官网”、App Store Connect 隐私政策、用户支持页面，以及 iOS Universal Link AASA 文件的静态站点。
+该目录是微信与抖音开放平台“应用官网”、App Store Connect 隐私政策、用户支持页面，以及 iOS Universal Link AASA 文件的静态站点。
 
 当前定位为审核临时站点。页面设置 `noindex, nofollow, noarchive`，不主动参与搜索收录；拥有准确 URL 的审核人员仍可直接访问。
 
@@ -14,6 +14,7 @@
    - `https://pamecrux.com/apple-app-site-association`
 5. 微信开放平台的“应用官网”填写首页 URL，不要填写尚未开放的预览地址。
 6. 微信开放平台的 Universal Link 建议填写 `https://pamecrux.com/ul/wechat/`，并保持尾部 `/`。
+7. 抖音开放平台的 Universal Links 回跳链接填写 `https://pamecrux.com/ul/douyin/`，并保持尾部 `/`；iOS 工程仍需配置 ClientKey URL Scheme 才能完整接收 SDK 回调。
 
 临时审核地址：
 
@@ -29,6 +30,7 @@
 - 用户协议：`https://pamecrux.com/terms.html`
 - 用户支持：`https://pamecrux.com/support.html`
 - Universal Link / 微信回调：`https://pamecrux.com/ul/wechat/`
+- Universal Link / 抖音回调：`https://pamecrux.com/ul/douyin/`
 
 本地预览：
 
