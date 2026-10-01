@@ -146,8 +146,11 @@ footer { border-top: 1px solid var(--line); background: white; }
 .footer-links { display: flex; gap: 24px; color: #615b68; font-size: 13px; }
 .filing-info { grid-column: 1 / -1; margin: -35px 0 0; padding-bottom: 25px; text-align: center; }
 .filing-info .copyright { margin: 0 0 8px; color: #8c8793; font-size: 13px; }
+.filing-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 18px; }
 .filing-link { color: #77717f; font-size: 12px; transition: color .2s ease; }
 .filing-link:hover { color: var(--purple); }
+.filing-police { display: inline-flex; align-items: center; gap: 5px; }
+.filing-police img { width: 16px; height: 16px; flex: 0 0 auto; }
 
 .legal-page { min-height: 100vh; background: #f7f5fa; }
 .legal-main { width: min(820px, calc(100% - 40px)); margin: 50px auto 100px; padding: 52px; border: 1px solid #e8e3ee; border-radius: 28px; background: white; }
